@@ -1,5 +1,5 @@
 import { createWSClient, wsLink } from '@trpc/client';
-import { createTRPCNuxtClient, httpBatchLink } from 'trpc-nuxt/client'
+import { createTRPCNuxtClient } from 'trpc-nuxt/client'
 import type { AppRouter } from '~/server/api/trpc/[trpc]'
 
 export default defineNuxtPlugin(async () => {
@@ -12,9 +12,6 @@ export default defineNuxtPlugin(async () => {
     links: [
       wsLink({
         client: wsClient,
-      }),
-      httpBatchLink({
-        url: '/api/trpc',
       }),
     ],
   })
