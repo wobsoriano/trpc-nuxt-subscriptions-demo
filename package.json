@@ -9,17 +9,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@types/node": "^18",
-    "@types/ws": "^8.5.4",
-    "nuxt": "^3.5.0"
+    "@types/node": "^18.19.19",
+    "@types/ws": "^8.5.10",
+    "nuxt": "^3.10.3"
   },
   "dependencies": {
-    "@fails-components/webtransport-ponyfill-websocket": "^0.0.8",
-    "@trpc/client": "^10.27.1",
-    "@trpc/server": "^10.27.1",
-    "trpc-nuxt": "^0.10.3",
-    "websocket-polyfill": "^0.0.3",
-    "ws": "^8.13.0",
-    "zod": "^3.21.4"
+    "@fails-components/webtransport-ponyfill-websocket": "^0.0.13",
+    "@trpc/client": "^10.45.1",
+    "@trpc/server": "^10.45.1",
+    "trpc-nuxt": "^0.10.19",
+    "websocket-polyfill": "^1.0.0",
+    "ws": "^8.16.0",
+    "zod": "^3.22.4"
   }
 }
